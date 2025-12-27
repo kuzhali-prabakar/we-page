@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+section {
+  padding: 30px;
+}
+
+.skills {
+  display: flex;
+  gap: 15px;
+}
+
+.skills div {
+  background: #4facfe;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+  .skills {
+    flex-direction: column;
+  }
+}
